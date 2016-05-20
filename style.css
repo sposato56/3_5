@@ -1,7 +1,6 @@
-<style>
-    body {
+body {
       text-align: center;
-      /* CSS Comment statement line 11 links a background photo from imgur */
+      /* background photo from imgur */
       background: url("http://i.imgur.com/kk39N6a.jpg");
       background-size: cover;
       background-position: center;
@@ -11,13 +10,34 @@
     p {
       font-size: 22px;
     }
+    h2 {
+      font-style: italic;
+    }
+    /*class use 1 adds shadow to text*/
+    .shadow {
+      text-shadow: 4px 4px brown;
+    }
     input {
       border: 0;
       padding: 10px;
       font-size: 18px;
+      color: green; /*different color for visited links*/
     }
     input[type="submit"] {
       background: red;
       color: white;
     }
-  </style>
+    /*add padding and boarder to image*/
+    img {
+      padding: 15px;
+      margin-top: 10px;
+    }
+    /*class use 2 sets text color to yellow*/
+    .use_class {
+      color: yellow;
+      text-shadow: 3px 3px black;
+    }
+    #footer_style {
+      color: orange;
+      font-size: 16px;
+    }
